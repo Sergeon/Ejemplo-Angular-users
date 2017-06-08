@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { User } from '../user';
 import { users } from './../users.service';
 
 @Component({
@@ -8,11 +9,16 @@ import { users } from './../users.service';
 })
 export class UsersListComponent implements OnInit {
 
-  users: any;
+  users: User[];
   constructor() { }
 
   ngOnInit() {
-    this.users = users;
+    this.users = users.map( user => ({
+      username: user.login,
+      site: user.html_url,
+      avatar: user.avatar_url,
+      isAdmin: user.site_admin
+    }) );
   }
 
 }

@@ -1,0 +1,30 @@
+.user{
+    margin: 20px;
+    background-color: darkslategray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width : 350px;
+    border-radius: 7px;
+    display : inline-block;
+}
+a{
+    display: block;
+    color: deeppink;
+}
+
+a, p{
+    margin-bottom: 10px;
+}
+
+img{
+    display: block;
+    margin: 30px auto;
+    border-radius: 50%;
+    width : 90px;
+}
+
+a:hover{
+    cursor: pointer;
+    color: white;
+}
