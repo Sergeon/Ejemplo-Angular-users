@@ -252,6 +252,8 @@ a:hover{
 }
 ```
 
+Puedes cambiar a la rama `filtros` para comprobar una versión del ejercicio con un poco más de funcionalidad: la página de de `users-list` tendrá tres botones que nos permitirán elegir si queremos mostrar a todos los usuarios, solamente a los administradores o solamente a los no administradores.
+
 
 
 
