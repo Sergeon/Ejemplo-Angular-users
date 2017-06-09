@@ -8,6 +8,11 @@
     border-radius: 7px;
     display : inline-block;
 }
+
+.user.admin {
+    background-color: lightskyblue;
+}
+
 a{
     display: block;
     color: deeppink;
